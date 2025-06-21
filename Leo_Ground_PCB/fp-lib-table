@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Leo_Ground_Library")(type "KiCad")(uri "${KIPRJMOD}/Leo_Ground_Library.pretty")(options "")(descr ""))
+)
