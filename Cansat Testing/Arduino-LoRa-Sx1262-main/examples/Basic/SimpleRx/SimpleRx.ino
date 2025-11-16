@@ -4,27 +4,18 @@
 
 LoraSx1262 radio;
 byte receiveBuff[255];
-int flag = 0;
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial){
-  }
   Serial.println("Booted");
-  radio.configSetFrequency(869525000);
-  radio.configSetBandwidth(250E3);
-  radio.configSetCodingRate(5);
-  radio.configSetSpreadingFactor(12);
 
-  flag = 1;
   if (!radio.begin()) { //Initialize the radio
     Serial.println("Failed to initialize radio");
-    flag = -1;
   }
 }
 
 void loop() {
-  // Receive a packet over radio
+  //Receive a packet over radio
   int bytesRead = radio.lora_receive_async(receiveBuff, sizeof(receiveBuff));
 
   if (bytesRead > -1) {
