@@ -11,8 +11,10 @@ void setup() {
   while (!Serial){ 
   }
   Serial.println("Booted");
-  radio.configSetFrequency(868E6);
-
+  radio.configSetFrequency(869525000);
+  radio.configSetBandwidth(250E3);
+  radio.configSetCodingRate(5);
+  radio.configSetSpreadingFactor(12);
   if (!radio.begin()) { //Initialize radio
     Serial.println("Failed to initialize radio.");
   }

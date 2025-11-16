@@ -26,11 +26,13 @@ void setup() {
 void loop() {
   // Receive a packet over radio
   int bytesRead = radio.lora_receive_async(receiveBuff, sizeof(receiveBuff));
-
+  Serial.println(bytesRead);
   if (bytesRead > -1) {
     //Print the payload out over serial
     Serial.print("Received: ");
     Serial.write(receiveBuff,bytesRead);
     Serial.println(); //Add a newline after printing
+  }
+  else{
   }
 }
