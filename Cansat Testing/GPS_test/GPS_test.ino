@@ -12,7 +12,7 @@ SoftwareSerial ss(1, 0);
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   ss.begin(9600);
 
   Serial.print("Simple TinyGPS library v. "); Serial.println(TinyGPS::library_version());
