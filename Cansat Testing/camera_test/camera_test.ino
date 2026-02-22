@@ -67,11 +67,11 @@ void configInitCamera(){
   // Select lower framesize if the camera doesn't support PSRAM
   if(psramFound()){
     config.frame_size = FRAMESIZE_UXGA; // FRAMESIZE_ + QVGA|CIF|VGA|SVGA|XGA|SXGA|UXGA
-    config.jpeg_quality = 0; //0-63 lower number means higher quality
+    config.jpeg_quality = 2; //0-63 lower number means higher quality
     config.fb_count = 1;
   } else {
     config.frame_size = FRAMESIZE_SVGA;
-    config.jpeg_quality = 0;
+    config.jpeg_quality = 2;
     config.fb_count = 1;
   }
   
@@ -161,5 +161,5 @@ void setup() {
 void loop() {    
   // Take and Save Photo
   takeSavePhoto();
-  delay(10000);
+  delay(1000);
 }
