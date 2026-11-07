@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Leo Cansat") (type "KiCad") (uri "D:/Repositories/Leo-Cansat/PCBs/Symbols and Footprints/Footprints/Leo Cansat.pretty") (options "") (descr ""))
+)
