@@ -5,6 +5,129 @@
 	(uuid "4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CaseMRI:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -3794,10 +3917,28 @@
 		(uuid "602eff94-53f2-477a-810f-1ae9a8ed3e02")
 	)
 	(junction
+		(at 144.78 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fc710e8-d4e4-4a6e-9c1a-aecc5b1fd407")
+	)
+	(junction
 		(at 199.39 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8220e73-5ba8-4b98-88c0-f2621f30f4df")
+	)
+	(junction
+		(at 139.7 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca64ae4b-bcc5-4767-81d7-26c4001b016f")
+	)
+	(junction
+		(at 134.62 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd9b1059-a432-46a1-a961-57ae728c1dd1")
 	)
 	(junction
 		(at 246.38 31.75)
@@ -3818,10 +3959,6 @@
 		(uuid "0c02334c-0751-4091-899a-a67bfdbb388b")
 	)
 	(no_connect
-		(at 80.01 96.52)
-		(uuid "1659e31a-2c2b-4abc-ad3c-c4116b9d5877")
-	)
-	(no_connect
 		(at 203.2 41.91)
 		(uuid "1eaa7680-4d08-4bcc-ba3e-dba710b54ec8")
 	)
@@ -3838,10 +3975,6 @@
 		(uuid "2e5ce820-bd23-47f4-966d-bae47d823a7f")
 	)
 	(no_connect
-		(at 80.01 99.06)
-		(uuid "35b9229e-003f-478e-aaa9-45ff9864fbf3")
-	)
-	(no_connect
 		(at 134.62 87.63)
 		(uuid "3e15b80b-674a-413f-8b82-7d0fa286bf78")
 	)
@@ -3852,10 +3985,6 @@
 	(no_connect
 		(at 134.62 82.55)
 		(uuid "53900900-44e4-4782-ad19-cf392e388b92")
-	)
-	(no_connect
-		(at 80.01 83.82)
-		(uuid "5d7b6e4d-3b43-43be-b8e3-f39f758bfaaa")
 	)
 	(no_connect
 		(at 116.84 67.31)
@@ -3894,10 +4023,6 @@
 		(uuid "b3836fed-10da-4019-a96d-32e292488f8f")
 	)
 	(no_connect
-		(at 80.01 86.36)
-		(uuid "c23d775c-82b2-4c69-a44a-86102aa771d4")
-	)
-	(no_connect
 		(at 116.84 82.55)
 		(uuid "c6f46d2e-4bf7-4269-8bad-ad8d700935e9")
 	)
@@ -3928,10 +4053,6 @@
 	(no_connect
 		(at 134.62 95.25)
 		(uuid "f40fce33-a8aa-4e51-8ab6-34f56e70e930")
-	)
-	(no_connect
-		(at 80.01 101.6)
-		(uuid "f6456634-e368-4624-83d4-974db088c13d")
 	)
 	(no_connect
 		(at 134.62 92.71)
@@ -3991,16 +4112,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 180.34) (xy 86.36 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e0d87e7-019d-4355-83a7-c70f62a12755")
-	)
-	(wire
-		(pts
 			(xy 31.75 104.14) (xy 34.29 104.14)
 		)
 		(stroke
@@ -4018,6 +4129,16 @@
 			(type default)
 		)
 		(uuid "14c2c3ca-8df0-4cfb-b281-40832d52f499")
+	)
+	(wire
+		(pts
+			(xy 139.7 160.02) (xy 134.62 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158b0dc8-2b8f-41d8-81e7-b34cbe797317")
 	)
 	(wire
 		(pts
@@ -4061,6 +4182,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dca2d4f-7a87-40ee-a0c6-922097ce0a0d")
+	)
+	(wire
+		(pts
 			(xy 33.02 101.6) (xy 34.29 101.6)
 		)
 		(stroke
@@ -4091,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 149.86) (xy 129.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f39e161-2a6d-4924-a39d-d492350bda09")
+	)
+	(wire
+		(pts
 			(xy 246.38 39.37) (xy 248.92 39.37)
 		)
 		(stroke
@@ -4111,6 +4252,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 154.94) (xy 134.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6cd87b-28a1-4165-bb45-7004a1fcad41")
+	)
+	(wire
+		(pts
 			(xy 115.57 95.25) (xy 116.84 95.25)
 		)
 		(stroke
@@ -4118,6 +4269,26 @@
 			(type default)
 		)
 		(uuid "44e473ce-a5d6-444a-8491-c665d5311c22")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfd9cc7-2ccd-401a-b793-5d3d01497075")
+	)
+	(wire
+		(pts
+			(xy 80.01 83.82) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7e307e-9409-483c-b392-af92a8c90261")
 	)
 	(wire
 		(pts
@@ -4248,6 +4419,26 @@
 			(type default)
 		)
 		(uuid "6eaed4ec-336a-4e26-8884-a7a12478ea36")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecd7df6-4669-4b55-b9f0-0b9882c247e8")
+	)
+	(wire
+		(pts
+			(xy 144.78 165.1) (xy 144.78 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70bc3cce-cf1b-42ea-b2db-7c1d944574c1")
 	)
 	(wire
 		(pts
@@ -4391,6 +4582,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 86.36) (xy 82.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976e4156-485e-4318-8e88-0438230665be")
+	)
+	(wire
+		(pts
 			(xy 54.61 160.02) (xy 54.61 161.29)
 		)
 		(stroke
@@ -4501,6 +4702,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 180.34) (xy 86.36 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f1e691-72dd-489a-9347-e0153dd5ade6")
+	)
+	(wire
+		(pts
 			(xy 80.01 81.28) (xy 82.55 81.28)
 		)
 		(stroke
@@ -4601,6 +4812,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 165.1) (xy 139.7 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98d62b3-f564-49c1-a4f0-72c29512d147")
+	)
+	(wire
+		(pts
 			(xy 102.87 156.21) (xy 110.49 156.21)
 		)
 		(stroke
@@ -4661,6 +4882,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 160.02) (xy 134.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a445b0-05cf-49bb-87ff-5aed1d399dc1")
+	)
+	(wire
+		(pts
 			(xy 191.77 31.75) (xy 203.2 31.75)
 		)
 		(stroke
@@ -4701,6 +4932,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 165.1) (xy 139.7 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8035b7-f57e-4417-9d5f-1f37d4050a4e")
+	)
+	(wire
+		(pts
 			(xy 115.57 92.71) (xy 116.84 92.71)
 		)
 		(stroke
@@ -4718,16 +4959,6 @@
 			(type default)
 		)
 		(uuid "ffcc430e-77d4-4f1f-97cd-2ccc8412f0dc")
-	)
-	(label "LORA DIO1"
-		(at 33.02 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01c58f1e-1fa1-45af-ba6e-d0c7f0b3cd85")
 	)
 	(label "SDA"
 		(at 135.89 64.77 0)
@@ -4759,26 +4990,6 @@
 		)
 		(uuid "1f9ba655-84cf-432b-b0ae-e2133f1eb6b3")
 	)
-	(label "LORA BUSY"
-		(at 31.75 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "212e1433-723e-47b7-9fcb-410450f5461f")
-	)
-	(label "SD Card CS"
-		(at 82.55 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f640781-02b5-4883-a258-590be9112805")
-	)
 	(label "MOSI"
 		(at 82.55 78.74 0)
 		(effects
@@ -4789,15 +5000,35 @@
 		)
 		(uuid "400186f2-7d77-47c5-81f4-a8c750b4863a")
 	)
-	(label "LORA RF SW"
-		(at 31.75 93.98 180)
+	(label "LORA NSS"
+		(at 82.55 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "476ac405-e2ee-4ba5-83e4-1cb5bcead483")
+		(uuid "40cfe891-8f3e-4ba8-91f2-06b773ee8b9f")
+	)
+	(label "LORA RST"
+		(at 82.55 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43882e8e-a172-4d48-9373-965265ac60e6")
+	)
+	(label "LORA RF SW"
+		(at 82.55 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52d5ae2b-8c47-4e6d-b8fe-ad478bb09edf")
 	)
 	(label "MOSI"
 		(at 204.47 100.33 180)
@@ -4839,16 +5070,6 @@
 		)
 		(uuid "603d28cd-0c27-4343-978c-8f12f15653cb")
 	)
-	(label "LORA NSS"
-		(at 33.02 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75db6212-98ed-4899-8307-3ba23f946194")
-	)
 	(label "SCK"
 		(at 204.47 102.87 180)
 		(effects
@@ -4868,16 +5089,6 @@
 			(justify left bottom)
 		)
 		(uuid "78ce7b54-02f0-4e07-aa67-e552138331f9")
-	)
-	(label "GPS TIMEPULSE"
-		(at 33.02 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7fc7a241-fad0-480e-902e-60ea903d9168")
 	)
 	(label "SCL"
 		(at 135.89 67.31 0)
@@ -4979,6 +5190,16 @@
 		)
 		(uuid "b27eb01c-23c1-4e3b-a907-f06e8a6b230a")
 	)
+	(label "GPS TIMEPULSE"
+		(at 82.55 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5db6c80-d743-4e53-9135-1f88446a9d2c")
+	)
 	(label "LORA RST"
 		(at 204.47 105.41 180)
 		(effects
@@ -4989,16 +5210,6 @@
 		)
 		(uuid "c8005178-227b-45d1-8a2b-9c497b3a4dab")
 	)
-	(label "LORA RST"
-		(at 31.75 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cddda255-9244-4596-901d-5ade35210fed")
-	)
 	(label "GPS TIMEPULSE"
 		(at 248.92 41.91 0)
 		(effects
@@ -5008,6 +5219,16 @@
 			(justify left bottom)
 		)
 		(uuid "d0859418-80ff-4cd1-b5a6-11d3a758eb80")
+	)
+	(label "LORA DIO1"
+		(at 82.55 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d17ebad5-6aae-4595-93d7-ab98b4bd4a1f")
 	)
 	(label "GPS RST"
 		(at 247.65 29.21 0)
@@ -5029,15 +5250,15 @@
 		)
 		(uuid "d7230cd7-1866-4e79-8354-a1e9b271cd26")
 	)
-	(label "Shutter"
-		(at 82.55 81.28 0)
+	(label "SD Card CS"
+		(at 31.75 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e3e80c22-22ef-4343-bc0a-c746825dc804")
+		(uuid "d833a33a-b513-4d8a-be5c-084476c02ef7")
 	)
 	(label "MOSI"
 		(at 115.57 90.17 180)
@@ -5058,6 +5279,16 @@
 			(justify right bottom)
 		)
 		(uuid "e81f19b0-13b2-461f-ab23-4f7d60894107")
+	)
+	(label "Shutter"
+		(at 82.55 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8e70e4f-e788-424f-be36-d1b90d41110e")
 	)
 	(label "SDA"
 		(at 31.75 78.74 180)
@@ -5128,6 +5359,16 @@
 			(justify right bottom)
 		)
 		(uuid "fc100b9f-548f-4369-a181-e33dbb9c78a3")
+	)
+	(label "LORA BUSY"
+		(at 82.55 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc92e18f-ee87-4ff8-97ee-38ffdce6930b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5208,6 +5449,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 144.78 166.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e18de0b-02a6-4e48-b35c-544e940f160a")
+		(property "Reference" "#PWR022"
+			(at 144.78 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 168.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "958910a1-73b8-4ea4-899d-45d9507ec34a")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 199.39 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -5278,6 +5596,85 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CaseMRI:MountingHole_Pad")
+		(at 134.62 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "323cb656-b90f-4d42-8be9-d5e688ed0c75")
+		(property "Reference" "H2"
+			(at 137.16 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 137.16 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 134.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 134.62 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38ff981b-68c2-4476-9bb4-fe7ffed0eb7f")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5663,6 +6060,85 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CaseMRI:MountingHole_Pad")
+		(at 129.54 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c0dbfba-0625-4d5d-a1de-2c7c8e272c60")
+		(property "Reference" "H1"
+			(at 132.08 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 132.08 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 129.54 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "204f8cd6-fa76-43e2-8264-6b988c10d994")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6109,83 +6585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 86.36 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7fbfac0c-1aef-4fe5-9510-fdadb758265f")
-		(property "Reference" "#PWR021"
-			(at 86.36 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 184.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "866301a2-434f-4a2f-86ec-e7f5d277963e")
-		)
-		(instances
-			(project "Cansat"
-				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Leo Cansat:MAX-F10S-00B")
 		(at 203.2 29.21 0)
 		(unit 1)
@@ -6447,6 +6846,83 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d5e0fe2-681e-43e2-954e-293771a75633")
+		(property "Reference" "#PWR021"
+			(at 86.36 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 184.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "507b2ccb-3cb3-4c60-a1c7-453ca60444c9")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -6800,6 +7276,85 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CaseMRI:MountingHole_Pad")
+		(at 139.7 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1451e2b-4ecf-4d15-9a0f-d5a457bc1e82")
+		(property "Reference" "H3"
+			(at 142.24 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 142.24 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cf57f00-9220-42ee-b73f-166392050199")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7896,6 +8451,85 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CaseMRI:MountingHole_Pad")
+		(at 144.78 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d783352d-3752-4c2d-86ff-c6957d5bbdd3")
+		(property "Reference" "H4"
+			(at 147.32 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 147.32 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a59dfe76-9e0b-41bf-9e4c-6e0d164101ae")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "H4")
 					(unit 1)
 				)
 			)
