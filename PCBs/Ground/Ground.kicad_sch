@@ -5084,8 +5084,20 @@
 		(uuid "729f6d24-2f8c-4330-b3c3-b6be1ce9bca2")
 	)
 	(no_connect
+		(at 214.63 63.5)
+		(uuid "742cae92-cc35-4358-9b62-bc2bb4dcdc84")
+	)
+	(no_connect
 		(at 26.67 92.71)
 		(uuid "7449e993-c09f-4a3f-b130-246a80c2fb1c")
+	)
+	(no_connect
+		(at 214.63 60.96)
+		(uuid "a2b15861-9b96-41b0-8ec2-303a26a9507b")
+	)
+	(no_connect
+		(at 214.63 68.58)
+		(uuid "a3ea9440-bf22-452e-a2ed-3cf7846b0351")
 	)
 	(no_connect
 		(at 137.16 96.52)
@@ -5116,8 +5128,16 @@
 		(uuid "c990c0de-5717-407b-baa8-7327c5848058")
 	)
 	(no_connect
+		(at 214.63 71.12)
+		(uuid "de84b525-2b17-4a04-8fdc-e1ba78eb35aa")
+	)
+	(no_connect
 		(at 86.36 138.43)
 		(uuid "f685fe49-dbca-410f-a8e5-d8ace6915d2f")
+	)
+	(no_connect
+		(at 260.35 99.06)
+		(uuid "f75bea52-86a6-44ce-b9ec-91d77ae9cb65")
 	)
 	(wire
 		(pts
@@ -6020,7 +6040,7 @@
 		(uuid "ffd8ee31-8a78-422a-a4bc-5e01e4af9553")
 	)
 	(label "Button 3"
-		(at 191.77 105.41 180)
+		(at 214.63 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6030,7 +6050,7 @@
 		(uuid "0dda8e84-13fb-4950-9826-09f5e1494f73")
 	)
 	(label "LORA DIO1"
-		(at 193.04 137.16 180)
+		(at 214.63 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6049,8 +6069,18 @@
 		)
 		(uuid "10b06cfd-9126-40d8-8df7-bbc9a5f73272")
 	)
+	(label "MOSI 0"
+		(at 260.35 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13f122f9-35d7-48c5-950e-e2f5dcf53f80")
+	)
 	(label "GPS Timepulse"
-		(at 193.04 72.39 180)
+		(at 214.63 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6090,7 +6120,7 @@
 		(uuid "212ffab9-d8c2-4391-bee6-3f53b2df255b")
 	)
 	(label "SDA"
-		(at 193.04 59.69 180)
+		(at 214.63 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6099,23 +6129,13 @@
 		)
 		(uuid "2ae42710-f88c-41bb-8a33-0020a5510d22")
 	)
-	(label "GPS Safeboot"
-		(at 193.04 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3652c081-e4b6-4f77-bd1a-5397e0e8cf15")
-	)
 	(label "Button 2"
-		(at 191.77 107.95 180)
+		(at 260.35 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "384cd72b-0900-4b02-9d43-c090f1f3d4b8")
 	)
@@ -6129,7 +6149,7 @@
 		)
 		(uuid "385cf91d-0e3e-4689-b80e-c9225a3c9848")
 	)
-	(label "SCK"
+	(label "SCK 0"
 		(at 21.59 105.41 180)
 		(effects
 			(font
@@ -6139,7 +6159,7 @@
 		)
 		(uuid "3c0976c1-b141-4e41-b179-0d1bc514e969")
 	)
-	(label "MISO"
+	(label "MISO 0"
 		(at 21.59 102.87 180)
 		(effects
 			(font
@@ -6150,7 +6170,7 @@
 		(uuid "417073c5-ad72-4adb-a81e-f5d52816ee06")
 	)
 	(label "UART Rx"
-		(at 193.04 67.31 180)
+		(at 214.63 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6189,18 +6209,8 @@
 		)
 		(uuid "49813e51-95ee-4f7a-8288-e526a5e78cdb")
 	)
-	(label "SCK 0"
-		(at 193.04 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "49b7a67c-0bff-494e-b9f6-a71d3f3db1d6")
-	)
 	(label "UART Tx"
-		(at 193.04 69.85 180)
+		(at 214.63 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6220,7 +6230,7 @@
 		(uuid "51d788fe-7001-461f-a337-bcd027a5e9ca")
 	)
 	(label "LCD SCL"
-		(at 193.04 93.98 180)
+		(at 214.63 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6230,7 +6240,7 @@
 		(uuid "5396ccff-0e4a-4f3f-8acf-99cd79f06ac9")
 	)
 	(label "LORA BUSY"
-		(at 193.04 134.62 180)
+		(at 214.63 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6240,7 +6250,7 @@
 		(uuid "5a649fb6-254a-4dd5-a6dd-9be6c939b747")
 	)
 	(label "SD Card CS"
-		(at 193.04 143.51 180)
+		(at 214.63 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6260,7 +6270,7 @@
 		(uuid "6066610c-c4f0-4373-91f0-c59d003ec508")
 	)
 	(label "LCD CS"
-		(at 193.04 99.06 180)
+		(at 214.63 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6299,18 +6309,8 @@
 		)
 		(uuid "7699cfea-ed34-4aab-b0f2-79d7dbfc40e7")
 	)
-	(label "MOSI 0"
-		(at 193.04 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79c58d9f-909f-4640-bcea-173f65e96250")
-	)
 	(label "LCD RST"
-		(at 193.04 88.9 180)
+		(at 214.63 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6320,7 +6320,7 @@
 		(uuid "7ef3ac9b-3410-4574-b01e-fe1d67d39d31")
 	)
 	(label "SCL"
-		(at 193.04 62.23 180)
+		(at 214.63 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6330,17 +6330,27 @@
 		(uuid "81ed3df1-58ee-4dea-89d5-f1411e45f3d5")
 	)
 	(label "LORA NSS"
-		(at 193.04 130.81 180)
+		(at 260.35 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8440d96f-728a-4910-912c-8fc00be272ea")
 	)
+	(label "GPS RST"
+		(at 260.35 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87f6636b-5f9d-45a3-b694-685bef54932d")
+	)
 	(label "LORA RST"
-		(at 193.04 128.27 180)
+		(at 214.63 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6348,6 +6358,16 @@
 			(justify right bottom)
 		)
 		(uuid "88e6c23c-243f-46fd-900a-71e9c6ecc0ca")
+	)
+	(label "GPS EXTINT"
+		(at 260.35 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca99d8c-7ffa-43f4-b56b-afb56dbfd85b")
 	)
 	(label "LCD SI"
 		(at 102.87 173.99 180)
@@ -6370,7 +6390,7 @@
 		(uuid "952032f8-88b0-446a-8a49-ae53f7d62eba")
 	)
 	(label "LCD SI"
-		(at 193.04 96.52 180)
+		(at 214.63 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6380,12 +6400,12 @@
 		(uuid "97a1da5f-0b93-4d97-b249-2ad578984a43")
 	)
 	(label "LORA RF SW"
-		(at 193.04 118.11 180)
+		(at 260.35 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9b551101-161b-46f7-9e29-81149c7f8c14")
 	)
@@ -6399,6 +6419,16 @@
 		)
 		(uuid "9f3dd52c-4e9a-4c64-9a08-31e1f606c3c6")
 	)
+	(label "GPS Safeboot"
+		(at 260.35 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7ca7406-aa13-458a-ba7f-a2a33bc87db9")
+	)
 	(label "LORA DIO1"
 		(at 66.04 167.64 0)
 		(effects
@@ -6410,17 +6440,17 @@
 		(uuid "b0577507-f87c-4440-8198-842a788edb6f")
 	)
 	(label "Button 1"
-		(at 191.77 110.49 180)
+		(at 260.35 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b48182fe-2a19-4b44-b2ad-54e470a6cb7f")
 	)
 	(label "LCD A0"
-		(at 193.04 91.44 180)
+		(at 214.63 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6439,17 +6469,7 @@
 		)
 		(uuid "c823ad74-d0f9-46c5-9335-aeed5b4be203")
 	)
-	(label "GPS EXTINT"
-		(at 193.04 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d105a3a9-abf0-49c4-9132-6c33f753afd4")
-	)
-	(label "MOSI"
+	(label "MOSI 0"
 		(at 21.59 100.33 180)
 		(effects
 			(font
@@ -6490,12 +6510,12 @@
 		(uuid "db61f28d-40a1-4309-a20a-b2efa398676c")
 	)
 	(label "MISO 0"
-		(at 193.04 120.65 180)
+		(at 260.35 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e0fc0e22-de52-4544-b359-b6f4fae6337b")
 	)
@@ -6508,6 +6528,16 @@
 			(justify right bottom)
 		)
 		(uuid "e51fbe9d-59b7-4cd4-9d02-52f78e3dcd9c")
+	)
+	(label "LED In"
+		(at 214.63 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6c9929d-62c7-44e2-bda9-9352e307f058")
 	)
 	(label "Button 1"
 		(at 83.82 29.21 0)
@@ -6549,15 +6579,15 @@
 		)
 		(uuid "f2ecc37e-ae5d-4934-a0af-ed1edc4f1f94")
 	)
-	(label "GPS RST"
-		(at 193.04 77.47 180)
+	(label "SCK 0"
+		(at 260.35 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "fd70d7c7-1d5c-4833-9d8e-93354620596e")
+		(uuid "f4f98c5e-4c43-4e8b-bcfc-1fbde544481e")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
