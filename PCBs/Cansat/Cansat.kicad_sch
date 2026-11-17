@@ -3635,7 +3635,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V8"
+		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -3660,7 +3660,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V8"
+			(property "Value" "+BATT"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3692,7 +3692,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V8\""
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3703,7 +3703,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "global power battery"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3714,7 +3714,7 @@
 					)
 				)
 			)
-			(symbol "+3V8_0_1"
+			(symbol "+BATT_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -3752,7 +3752,7 @@
 					)
 				)
 			)
-			(symbol "+3V8_1_1"
+			(symbol "+BATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3959,6 +3959,10 @@
 		(uuid "0c02334c-0751-4091-899a-a67bfdbb388b")
 	)
 	(no_connect
+		(at 34.29 93.98)
+		(uuid "1e2a4f73-a88f-4af0-81f0-216432420d84")
+	)
+	(no_connect
 		(at 203.2 41.91)
 		(uuid "1eaa7680-4d08-4bcc-ba3e-dba710b54ec8")
 	)
@@ -3979,8 +3983,16 @@
 		(uuid "3e15b80b-674a-413f-8b82-7d0fa286bf78")
 	)
 	(no_connect
+		(at 34.29 106.68)
+		(uuid "4abf988a-998a-4f39-b6e0-dda94fdff937")
+	)
+	(no_connect
 		(at 116.84 54.61)
 		(uuid "4f32161c-d55b-4f3c-a593-d8986401746c")
+	)
+	(no_connect
+		(at 34.29 104.14)
+		(uuid "4fe1a8d9-d693-4b48-ae02-fa046f27ccbe")
 	)
 	(no_connect
 		(at 134.62 82.55)
@@ -4019,6 +4031,10 @@
 		(uuid "90239d1e-7b72-4cf4-808a-ddb2a7763607")
 	)
 	(no_connect
+		(at 34.29 101.6)
+		(uuid "913f0576-d100-4c18-957e-04a12f3d25e0")
+	)
+	(no_connect
 		(at 134.62 69.85)
 		(uuid "b3836fed-10da-4019-a96d-32e292488f8f")
 	)
@@ -4037,6 +4053,10 @@
 	(no_connect
 		(at 34.29 55.88)
 		(uuid "d13d6997-c6a5-43c9-9f22-40326a5dd9ee")
+	)
+	(no_connect
+		(at 34.29 99.06)
+		(uuid "d1dc910f-ff1d-4414-801e-ef27278bc3d0")
 	)
 	(no_connect
 		(at 134.62 85.09)
@@ -4072,16 +4092,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 99.06) (xy 34.29 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003a91ff-b1d8-4ecc-8266-bfad3ff42f59")
-	)
-	(wire
-		(pts
 			(xy 80.01 71.12) (xy 82.55 71.12)
 		)
 		(stroke
@@ -4109,16 +4119,6 @@
 			(type default)
 		)
 		(uuid "0af6085c-cd8b-4f3a-bd83-773e32a09c5c")
-	)
-	(wire
-		(pts
-			(xy 31.75 104.14) (xy 34.29 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1015d616-d917-4fc3-8501-06cf52d3fc69")
 	)
 	(wire
 		(pts
@@ -4189,16 +4189,6 @@
 			(type default)
 		)
 		(uuid "1dca2d4f-7a87-40ee-a0c6-922097ce0a0d")
-	)
-	(wire
-		(pts
-			(xy 33.02 101.6) (xy 34.29 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e14241b-b357-4a07-90f7-e10ae5e4f958")
 	)
 	(wire
 		(pts
@@ -4572,16 +4562,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 93.98) (xy 34.29 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "964a3300-3994-47c7-8294-2350d1df2318")
-	)
-	(wire
-		(pts
 			(xy 80.01 86.36) (xy 82.55 86.36)
 		)
 		(stroke
@@ -4639,16 +4619,6 @@
 			(type default)
 		)
 		(uuid "ab098003-0a6e-4ca5-8e29-ba8eaab86cdb")
-	)
-	(wire
-		(pts
-			(xy 33.02 106.68) (xy 34.29 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5099fd5-2689-4b4e-a2ad-4b968915b802")
 	)
 	(wire
 		(pts
@@ -5681,161 +5651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V8")
-		(at 24.13 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34ff0c74-5c2c-489e-a819-818897619bcc")
-		(property "Reference" "#PWR013"
-			(at 24.13 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V8"
-			(at 28.448 18.288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 24.13 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a55806a9-5b59-4b15-97be-6f6622b0400c")
-		)
-		(instances
-			(project "Cansat"
-				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V8")
-		(at 52.07 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a372ace-ce89-49fe-b5a4-56ef25432e10")
-		(property "Reference" "#PWR012"
-			(at 52.07 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V8"
-			(at 52.07 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 52.07 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1fc2bf8-9af6-4f77-8929-d0409c9598a9")
-		)
-		(instances
-			(project "Cansat"
-				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Leo Cansat:XIAO-ESP32-S3-SMD")
 		(at 88.9 158.75 270)
 		(unit 1)
@@ -6579,6 +6394,84 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 52.07 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7941334e-510c-4233-970b-cd0c404c2cfd")
+		(property "Reference" "#PWR024"
+			(at 52.07 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 52.07 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 52.07 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15174bc1-0969-4f3b-9c5f-1595a31f94fc")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7631,6 +7524,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 54.61 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a708fe6f-15fa-48a7-84a7-c50ae5320797")
+		(property "Reference" "#PWR025"
+			(at 54.61 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 54.61 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 54.61 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6232edb-5563-4b33-9211-e11934e879c9")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 50.8 0)
 		(unit 1)
@@ -7779,83 +7750,6 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V8")
-		(at 54.61 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b20bac7a-a3e2-4d79-93c6-00abfa32e216")
-		(property "Reference" "#PWR014"
-			(at 54.61 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V8"
-			(at 54.356 150.368 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V8\""
-			(at 54.61 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a192c634-786e-4f2c-abf6-47025aa67f4a")
-		)
-		(instances
-			(project "Cansat"
-				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8374,6 +8268,84 @@
 			(project "Cansat"
 				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 24.13 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d322eeac-3bca-488f-acdd-ca70f5ee636d")
+		(property "Reference" "#PWR023"
+			(at 24.13 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 24.13 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 24.13 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7820dab4-7c91-441a-a58e-a2fd03290bf5")
+		)
+		(instances
+			(project "Cansat"
+				(path "/4c5fd7b3-e3ff-4a2c-ac38-ea8bcd132cdc"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
